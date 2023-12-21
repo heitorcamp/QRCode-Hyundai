@@ -60,7 +60,7 @@ const App = () => {
       </Camera>
       {scanned && (
         <View style={styles.barcodeData}>
-          <Text>Dados do QR Code: {data}</Text>
+          <Text>Dados do carro pelo QR Code: {data}</Text>
           
         </View>
       )}
